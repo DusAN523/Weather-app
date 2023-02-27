@@ -1,0 +1,19 @@
+{
+  "name": "weather-backend",
+  "version": "1.0.0",
+  "description": "Weather app - fullstack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DusAN523/Weather-app.git"
+  },
+  "author": "Dusan Machala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DusAN523/Weather-app/issues"
+  },
+  "homepage": "https://github.com/DusAN523/Weather-app#readme"
+}
