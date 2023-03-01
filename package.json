@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/DusAN523/Weather-app/issues"
   },
-  "homepage": "https://github.com/DusAN523/Weather-app#readme"
+  "homepage": "https://github.com/DusAN523/Weather-app#readme",
+  "type": "module"
 }

@@ -1,0 +1,17 @@
+.formInput {
+    display: grid;
+    width: 20rem;
+}
+
+.error-msg {
+    display: none;
+    font-weight: 800;
+    color: rgb(231, 49, 49);
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 15px;;
+}
+
+input:invalid ~ span {
+    display: block;
+}
