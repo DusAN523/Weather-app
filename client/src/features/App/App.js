@@ -1,7 +1,13 @@
 import "./App.css";
+import Logo from "../../components/Logo/Logo";
+import PrivateRoute from "../../components/PrivateRoute/PrivateRoute";
 
 function App() {
-  return <h1>Test</h1>;
+  return (
+    <PrivateRoute>
+      <Logo />
+    </PrivateRoute>
+  );
 }
 
 export default App;
