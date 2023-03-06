@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lora; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,45,98,1) 30%, rgba(0,212,255,1) 100%);
+}
+
+code {
+  font-family:  source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button:hover {
+  cursor: pointer;
+}
