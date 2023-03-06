@@ -65,7 +65,7 @@
   }
   
   .link:hover{
-    color: #318b5b;
+    color: rgb(8, 6, 56);
   }
   
   .error-message {
@@ -75,6 +75,6 @@
 
   #success-message {
     margin: 10px 0;
-    color: #000;
-    font-weight: 800;
+    color: white;
+    font-weight: 900;
   }

@@ -21,7 +21,7 @@ export default function Register() {
     {
       id: 2,
       name: "password",
-      type: "text",
+      type: "password",
       label: "Password",
       errorMessage: `Password must have at least 8 characters and contain min one number !`,
       pattern: "^[a-zA-Z0-9]{8,}$",
@@ -29,7 +29,7 @@ export default function Register() {
     {
       id: 3,
       name: "passwordAgain",
-      type: "text",
+      type: "password",
       label: "Confirm password",
       errorMessage: "Passwords do not match !",
       pattern: values.password,

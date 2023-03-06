@@ -1,0 +1,109 @@
+.login-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,45,98,1) 30%, rgba(0,212,255,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+.login-container{
+    border-radius: 50px;
+    padding: 1.5em 3em;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #e8e8e8;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,45,98,1) 30%, rgba(0,212,255,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  .form {
+    width: 15rem;
+    margin-top: .8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .input,
+  .form-input {
+     padding: .4em;
+     margin-bottom: 1.5em;
+     border-radius: 10px;
+     border: 1px solid rgb(140, 141, 173);
+   }
+  
+  .login-container:hover{
+    border: 4px solid  rgba(0,45,98,1);
+  } 
+
+  .form {
+    width: 18rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-input:focus,
+  .password-input:focus,
+  .form-input:focus {
+    outline: none;
+    border: 1px solid rgb(140, 141, 173);
+  }
+
+.submit-btn {
+    width: 100%;
+    margin-bottom: .45em;
+    background-color: #7c7c8f;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: solid #7c7c8f;
+    border-radius: 10px;
+    padding: .6em;
+  }
+  .submit-btn:hover {
+    background-color: rgb(8, 6, 56);
+    color: white;
+  }
+  .link:hover{
+    color: rgb(8, 6, 56);
+  }
+  .email-input:focus,
+  .password-input:focus,
+  .form-input:focus {
+    outline: none;
+    border: 1px solid rgb(140, 141, 173);
+  }
+
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 1em;
+  }
+
+  #success-message {
+    margin: 10px 0;
+    color: white;
+    font-weight: 900;
+  }
+
+  a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 400;
+  }
+
+  a:hover, .link:hover {
+    color: rgb(95, 97, 216);
+  }
+
+  label {
+    margin-top: 1rem;
+  }
+
+  input#email, input#password {
+ height: 1.4rem;
+  }
