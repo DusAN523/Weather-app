@@ -16,5 +16,8 @@
     "url": "https://github.com/DusAN523/Weather-app/issues"
   },
   "homepage": "https://github.com/DusAN523/Weather-app#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@iconify/icons-bi": "^1.2.15"
+  }
 }
